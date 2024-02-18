@@ -1,0 +1,368 @@
+﻿Caja;;;;;;;810000
+;Cobranzas;Carga;;;;;810100
+;;;;;;Cobranzas -Carga-;810100
+;;Recibos Provisorios;;;;;810600
+;;;;;;Recibos Provisorios -Carga-;810600
+;;Rendiciones;;;;;810700
+;;;;;;Rendiciones -Carga-;810700
+;;Planilla de Rendiciones;;;;;811100
+;;;;;;Tipos de Muertos -Carga-;614200
+;;Exp. Ganancias (Comentado);;;;;811000
+;;;;;;;
+;;;;;;;
+;Ordenes de Pago;Carga;;;;;810200
+;;;;;;Ordenes de Pago -Carga-;810200
+;;Verificacion ;;;;;810210
+;;Chequeras;;;;;1010400
+;;;;;;Chequeras -Carga-;1010400
+;;Anulacion cheques Propios ;;;;;1010500
+;;;;;;;
+;;;;;;;
+;Cheques Devueltos;Carga;;;;;810300
+;;;;;;Cheques Devueltos -Carga-;810300
+;;Entrega;;;;;810400
+;;;;;;;
+;;;;;;;
+;Mov. Valores;;;;;;810900
+;;;;;;Movimiento de Valores -Carga-;810900
+;;;;;;;
+;Transferencias;Carga;;;;;810500
+;;;;;;Transferencias de Caja -Carga-;810500
+;;Confirmacion ;;;;;810800
+;;;;;;;
+;;;;;;;
+Cuentas Corrientes;;;;;;;910000
+;Registro Subdiario Cta. Cte.;Individual;;;;;910200
+;;;;;;Registro Subdiario Cta. Cte. -Carga-;910200
+;;Masivo;;;;;910300
+;;Transferencia;;;;;910400
+;;;;;;;
+;Cancelaciones;;;;;;910100
+;;;;;;Cancelaciones -Carga-;910100
+;;;;;;;
+;Compensaciones;;;;;;911000
+;;;;;;Compensacion Cobranza-Orden de Pago -Carga-;910800
+;;;;;;;
+;;;;;;;
+Bancos;;;;;;;1010000
+;Depositos;;;;;;1010100
+;;;;;;Depositos -Carga-;1010100
+;;;;;;;
+;Depositos Masivos;;;;;;1010800
+;;;;;;;
+;Movimientos;;;;;;1010200
+;;;;;;Bancos Movimientos -Carga-;1010200
+;;;;;;;
+;Transferencias;;;;;;1010300
+;;;;;;Bancos Transferencias -Carga-;1010300
+;;;;;;;
+;Conciliacion Bancaria;;;;;;1010600
+;;;;;;;
+;Bancos propios-saldos;;;;;;1010700
+;;;;;;;
+Compras;;;;;;;300000
+;Comprobantes;;;;;;310100
+;;;;;;Compras Comprobantes -Carga-;310100
+;;;;;;;
+;Automaticas;;;;;;310200
+;;;;;;;
+;Imputacion IVA;;;;;;310300
+;;;;;;;
+;Datos exportacion;;;;;;310400
+;;;;;;;
+;Reintegros Exportacion;;;;;;310500
+;;;;;;;
+;Reemplazo de observacion ;;;;;;310600
+;;;;;;;
+Impositivas;;;;;;;1110000
+;Percepcion Ing. Brutos;;;;;;1110100
+;;;;;;;
+;Senasa;;;;;;1110200
+;;;;;;;
+;Fondo Carne Vacuna;;;;;;1110700
+;;;;;;;
+;Recuperos;Planilla;;;;;1131600
+;;Comprobantes;;;;;1110800
+;;Resumen;;;;;1130800
+;;;;;;;
+;Indices percepcion Ing. Brutos;;;;;;519800
+;;;;;;;
+;Disco Cuatrimestral;;;;;;1111500
+;;;;;;;
+;Permisos de Embarques;;;;;;1110900
+;;;;;;;
+;Importacion CABA;;;;;;1131410
+;;;;;;;
+Tablas;;;;;;;
+;Cuentas;Carga Principal;;;;;510100
+;;;;;;Cuentas (solapa Plan de Cuentas) -Carga-;510105
+;;;;;;Cuentas (solapa Usuarios) -Carga-;510106
+;;;;;;Cuentas;510101
+;;;;;;Cuentas (solapa Conceptos de Facturacion) -Carga-;510107
+;;;;;;Cuentas -Carga-;510100
+;;Carga simplificada;;;;;510104
+;;;;;;Cuentas -Carga-;510100
+;;Domicilios AFIP RCE;;;;;30001000
+;;Clientes;;;;;
+;;;Carga;;;;510200
+;;;;;;Clientes -Carga-;510200
+;;;Clientes varios ;;;;518100
+;;;;;;Clientes Varios -Carga-;518100
+;;;Limite de Credito ;;;;518100
+;;;;;;;
+;;Proveedores;;;;;
+;;;Carga;;;;510500
+;;;;;;Proveedores -Carga-;510500
+;;;Proveedores Varios;;;;510600
+;;;;;;Proveedores Varios -Carga-;510600
+;;;Proveedores de Hacienda;;;;516400
+;;;;;;Proveedores Varios Hacienda -Carga-;516400
+;;;;;;;
+Consultas;;;;;;;
+;Caja;;;;;;820000
+;;Resumen;;;;;821200
+;;Cobranzas;;;;;
+;;;Cobranzas;;;;820100
+;;;Plazos de Cobranza;;;;820105
+;;;Planilla de rendiciones ;;;;820400
+;;;Cobranzas de Valores;;;;821600
+;;;Recibos Provisiorios;;;;820600
+;;;;;;;
+;;Ordenes de Pago;;;;;
+;;;Consulta;;;;820200
+;;;Consulta Orden de Pago (Imp. Cuenta);;;;63400000
+;;;Valores;;;;820210
+;;;;;;;
+;;Mov. Valores;;;;;820900
+;;Cheques devueltos;;;;;820300
+;;Cheques de Terceros;;;;;821000
+;;Documentos;;;;;821100
+;;Movim. Valores x Comprobante;;;;;821400
+;;Transferencias;;;;;820500
+;;Plazo de Pagos;;;;;63700000
+;;;;;;;
+;Ctas. Ctes.;;;;;;520000
+;;Cuentas;;;;;520100
+;;;;;;Cuentas (Ficha de Personal) -Cons-;520113
+;;;;;;Cuentas;510102
+;;;;;;Cuentas;510102
+;;;;;;Cuentas (Marca pronto pago) -Cons-;520114
+;;;;;;Cuentas (solapa Datos) -Cons-;520101
+;;;;;;Cuentas (solapa Pendientes) -Cons-;520102
+;;;;;;Cuentas (solapa Ctas. Ctes.) -Cons-;520103
+;;;;;;Cuentas (solapa Gestion) -Cons-;520104
+;;;;;;Cuentas (solapa Valores) -Cons-;520105
+;;;;;;Cuentas (solapa Comentarios) -Cons-;520106
+;;;;;;Cuentas (solapa Ctas. Cont.) -Cons-;520107
+;;;;;;Cuentas (solapa Cliente) -Cons-;520108
+;;;;;;Cuentas (solapa Proveedor) -Cons-;520109
+;;;;;;Cuentas (solapa Usuarios) -Cons-;520110
+;;;;;;Cuentas (solapa Inhabilitaciones) -Cons-;520111
+;;;;;;Cuentas (solapa Conceptos de Facturacion) -Cons-;520112
+;;Proveedores y Clientes;;;;;520600
+;;Cambios Etados de Cuentas;;;;;520400
+;;Gestion Ctas. Ctes.;;;;;921100
+;;Pendientes;;;;;920600
+;;Pendientes tabla;;;;;920601
+;;Composicion de Deuda;;;;;520500
+;;Registro Subdiario Cta. Cte.;;;;;920200
+;;Cancelaciones;;;;;920100
+;;Valores de Compensacion;;;;;920500
+;;Compensaciones;;;;;920800
+;;Saldos ;;;;;920700
+;;;;;;;
+;Bancos;;;;;;1020000
+;;Ficha;;;;;1020600
+;;Depositos ;;;;;1020100
+;;Transferencias;;;;;1020300
+;;Movimientos;;;;;1020200
+;;Cheques Propios;;;;;1020700
+;;Cheques Librados ;;;;;1020800
+;;Saldos Reales;;;;;1020800
+;;;;;;;
+;Compras;;;;;;
+;;Compras;;;;;320100
+;;Compras - Insumos ;;;;;320500
+;;Compras Combustibles ;;;;;63300000
+;;Compras de Hacienda;;;;;62700000
+;;Modificacion de Compra;;;;;62700000
+;;Estadistica Precio de Compra;;;;;320200
+;;Hacienda para Exportacion ;;;;;320400
+;;;;;;;
+;Ventas;;;;;;
+;;Facturas;;;;;120500
+;;Facturas Electronicas Informadas;;;;;62400000
+;;;;;;;
+;Impositivas;;;;;;1120000
+;;Percepcion Ing. Brutos;;;;;1120100
+;;SENASA;;;;;1120200
+;;Fondo Carne Vacuna;;;;;1120700
+;;Permisos de Embarques ;;;;;1120900
+;;Libro Iva Compras ;;;;;1121000
+;;Convenios;;;;;1121100
+;;Percepciones / Retenciones;;;;;1121200
+;;;;;;;
+;Eventos;;;;;;520300
+;;;;;;;
+;Agenda;;;;;;622100
+;;;;;;Paises -Carga-;517500
+;;;;;;;
+;Resumen de Utilizacion de Comprobantes;;;;;;1120800
+;;;;;;;
+;Resumen de Ingresos y egresos ;;;;;;1120300
+;;;;;;;
+;CAI Ventas;;;;;;610501
+;;;;;;;
+;Venc. Constancia AFIP;;;;;;610502
+;;;;;;;
+;Importacion LUA;;;;;;960000
+;;;;;;;
+;Planilla de Limites;;;;;;62310000
+;;;;;;G.Unif.- Cons. Planilla Limites Solo ped;62310001
+;;;;;;;
+;Importacion de Riesgo Fiscal;;;;;;62600000
+;;;;;;;
+;Percepciones Ingresos Brutos ;;;;;;63240001
+;;;;;;;
+Reportes;;;;;;;
+;Caja;;;;;;830000
+;;Resumen;;;;;831200
+;;Cobranzas;;;;;830100
+;;;Reporte ;;;;830101
+;;;Valores;;;;830101
+;;;Recibos Provisorios;;;;830600
+;;;Rendiciones;;;;830700
+;;;Cobranzas por Cuenta Contable;;;;830103
+;;;Cobranzas por Tipo de Valor;;;;830104
+;;;Cobraznas por Fecha de acreditacion ;;;;830106
+;;;Cobranzas con Descuento ;;;;830105
+;;;;;;;
+;;Ordenes de Pago;;;;;830200
+;;;Reporte ;;;;830201
+;;;Valores ;;;;830202
+;;;Dias de pago ;;;;830205
+;;;;;;;
+;;Movimientos y Valores ;;;;;831300
+;;Cheques de Terceros ;;;;;831000
+;;Cheques Recurrentes;;;;;831001
+;;Cheques devueltos;;;;;830300
+;;Movimientos de Caja;;;;;831500
+;;Transferencias;;;;;830500
+;;;;;;;
+;Ctas. Ctes.;;;;;;930000
+;;Ficha de Cta. Cte.;;;;;930500
+;;Pendiente;;;;;930600
+;;Saldos ;;;;;930700
+;;Morosos al Dia;;;;;930900
+;;Composicion de Deuda;;;;;930800
+;;Registro Subdiario Cta. Cte.;;;;;930200
+;;Ficha de Consignacion ;;;;;930300
+;;;;;;;
+;Bancos;;;;;;1030000
+;;Ficha ;;;;;1030900
+;;Depositos ;;;;;1030100
+;;Movimientos;;;;;1030200
+;;Transferencias;;;;;1030300
+;;Chequeras;;;;;1030400
+;;Cheques Liberados;;;;;1031000
+;;Saldos;;;;;1030800
+;;;;;;;
+;Compras ;;;;;;330000
+;;Comprobantes;;;;;330400
+;;Vencimiento de Compras;;;;;330300
+;;Monotributistas;;;;;330500
+;;Comp.Computadas por Periodos;;;;;330600
+;;IVA Computado;;;;;330700
+;;Disco IVA Computado;;;;;330800
+;;;;;;;
+;Impositivos;;;;;;1130000
+;;DGI;;;;;
+;;;   Informes ;;;;
+;;;;Libro Ventas;;;130100
+;;;;Libro Compras;;;330100
+;;;;Resumen Venta/Compra ;;;1131200
+;;;;Convenio ;;;1131300
+;;;;Retencion ganancias ;;;830203
+;;;;Fondo Carne Vacuna ;;;1130700
+;;;   Soportes;;;;
+;;;;RG 1547;;;1130300
+;;;;RG 1361;;;1131000
+;;;;Ventas;;;1131001
+;;;;Compras;;;1131002
+;;;;Sicore;;;1130200
+;;;;Disco Cuatrimestral;;;
+;;;;;Generacion;;1131500
+;;;;;Reporte;;1131501
+;;;;Disco Faena Menusal ;;;1130900
+;;;;Permiso de Embarque ;;;1131900
+;;;;Disco Libro IVA Compras - Ventas;;;1132900
+;;;;CITI Compras ;;;1131100
+;;;;CITI Ventas;;;1132000
+;;;;RG 3685 Compras Ventas;;;9898987
+;;;;;;;
+;;DGR;;;;;
+;;;   Informes;;;;
+;;;;Retencion Ing. Brutos ;;;830204
+;;;;Percepcion Ing. Brutos ;;;1130100
+;;;   Soportes;;;;
+;;;;Disco IIBB Unificado ;;;63245000
+;;;;;;;65200000
+;;;;Disco Percepciones La Rioja;;;1131700
+;;;;Disco Percepciones Jujuy - ARPIB Web;;;1131750
+;;;;Disco Percepciones Formosa ;;;1131760
+;;;;Disco Percepciones Catamarca ;;;1131780
+;;;;Archivo Inf. Retencion Ing. Bruto;;;1131800
+;;;;;;;
+;Reimpresion de Comprobantes ;;;;;;210000
+;;;;;;Reimpresion de Comprobantes;210000
+;;;;;;Facturas -Imp. Comp.-;210600
+;;;;;;Remitos -Imp. Comp.-;210400
+;;;;;;Cobranzas -Imp. Comp.-;210100
+;;;;;;Transferencias de Caja -Imp. Comp.-;210500
+;;;;;;Notas de Debito/Credito -Imp. Comp.-;210700
+;;;;;;Ajustes Cuentas -Imp. Comp.-;210900
+;;;;;;Ordenes de Pago -Imp. Comp.-;210200
+;;;;;;Ajustes Stock -Imp. Comp.-;210800
+;;;;;;Remitos Internos -Imp. Comp.-;211000
+;;;;;;Retenciones Ing. Brutos -Imp. Comp.-;210201
+;;;;;;Movimientos Bancarios -Imp. Comp.-;211100
+;;;;;;Cheques Devueltos -Imp. Comp.-;210300
+;;;;;;Retenciones Ganancias -Imp. Comp.-;210202
+;;;;;;Percepciones Ing. Brutos -Imp. Comp.-;211500
+;;;;;;Senasa -Imp. Comp.-;211400
+;;;;;;Liquidacion de Compras -Imp. Comp.-;211600
+;;;;;;Partes de Compra -Imp. Comp.-;211700
+;;;;;;Compensacion -Imp. Comp.-;211800
+;;;;;;Tasa Promocion Carne Vacuna -Imp. Comp.-;211900
+;;;;;;;
+;;;;;;;
+;Resumen de Utilizacion de Comprobantes ;;;;;;131300
+;;;;;;;
+;Eventos ;;;;;;530300
+;;;;;;;
+;Constancia;;;;;;530301
+;;;;;;;
+;Informe Ctas. Por Cobrar Categorizadas Normales ;;;;;;930400
+;;;;;;;
+;Disco Agentes de Informacion Combustibles ;;;;;;63280000
+;;;;;;;
+;SIFERE WEB;;;;;;63310000
+;;;;;;;
+;Historial de Importaciones del padron CUIT;;;;;;63200000
+;;;;;;;
+;Importador del Padron de CUIT de Grandes Clientes - MiPyMEs;;;;;;64113000
+;;;;;;;
+;Importacion de Rubros IVA ;;;;;;63246000
+;;;;;;;
+;Libro IVA Digital ;;;;;;9898986
+;;;;;;;
+Consultas Rapidas;;;;;;;
+;Cuentas;;;;;;
+;;;;;;;
+Ventana;;;;;;;
+;Vertical;;;;;;
+;Horizontal;;;;;;
+;Cascada;;;;;;
+;Organizar Iconos;;;;;;
+;Recompilar Objetos;;;;;;
+;Versión;;;;;;
